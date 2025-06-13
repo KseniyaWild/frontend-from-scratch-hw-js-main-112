@@ -114,3 +114,4 @@ function init() {
 }
 
 document.addEventListener('DOMContentLoaded', init)
+//почему-то проверка не проходит
