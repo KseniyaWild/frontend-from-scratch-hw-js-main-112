@@ -19,7 +19,7 @@ const map = (array, callback) => {
 
     for(let index = 0; index < array.length; index++) {
         const element = array[index];
-        newArr.push(callback(element, index))
+        newArr.push(element, index)
     }
     return newArr;
 }
